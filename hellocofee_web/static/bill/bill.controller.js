@@ -189,7 +189,6 @@
         };
 
         $scope.pay = function () {
-            ZaloPay.showLoading();
             var uuid = gen_uuid();
             var billId = $.now();
             var item_CustomerName = $scope.item_CustomerName;
@@ -198,6 +197,16 @@
             console.log("item_CustomerName: " + item_CustomerName);
             console.log("item_PhoneNo: " + item_PhoneNo);
             console.log("item_BillNote: " + item_BillNote);
+            if(item_CustomerName.toString().trim() === "") {
+                PopupService.displayPopup('Vui lòng nhập HỌ TÊN trước khi thanh toán.');
+                return;
+            }
+            if(item_PhoneNo.toString().trim() === "") {
+                PopupService.displayPopup('Vui lòng nhập SỐ ĐIỆN THOẠI trước khi thanh toán.');
+                return;
+            }
+            
+            ZaloPay.showLoading();           
             $scope.l_product = $rootScope.foodItems;
             $scope.total_money_local = $scope.total_money;
             BillService.doGetPmsid($rootScope.merchant_code, uuid, billId).then(function (response) {
