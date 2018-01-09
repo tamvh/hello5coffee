@@ -1,0 +1,21 @@
+vpos food request json format:
+{
+	"err":0,
+	"msg":"No error",
+
+	"dt":{
+	"categories":[
+		{"category_id":1,"category_name":"Điểm tâm","order":1,"status":1},
+		{"category_id":2,"category_name":"Ăn trưa / Ăn xế","order":2,"status":1},
+		{"category_id":3,"category_name":"Ăn nhẹ","order":3,"status":1},
+		{"category_id":4,"category_name":"Thức uống","order":4,"status":1}
+		],
+
+	"items":[
+		{"item_id":75,"item_name":"Bun","item_code":"c","price":20000,"category_name":"Điểm tâm","img_path":"http://vpos.zing.vn/resource/vpos/items/1467865254454.jpg","img_crc":"","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":74,"item_name":"Com","item_code":"e","price":30000,"category_name":"Ăn nhẹ",  "img_path":"http://vpos.zing.vn/resource/vpos/items/1467874952865.jpg","img_crc":"","description":"","inventory":0,"status":0,"create_by":"","create_date":""},
+		{"item_id":73,"item_name":"Tra","item_code":"d","price":5000, "category_name":"Ăn nhẹ",  "img_path":"http://vpos.zing.vn/resource/vpos/items/1467865241753.jpg","img_crc":"","description":"","inventory":0,"status":1,"create_by":"","create_date":""}
+		]
+	}
+}
+

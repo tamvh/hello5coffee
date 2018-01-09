@@ -1,0 +1,39 @@
+cancel bill - invoice code: "1607200039"
+
+backupBill: 
+"{\"datetime\":\"20-07-2016 16:50:45\",
+	\"item\":[{\"amount\":\"1,000\",\"item_name\":\"Trà đá\",\"price\":\"1,000\",\"quantity\":\"1\"}],
+	\"receiptNum\":\"1607200039\",
+	\"title\":\"Canteen VNG\",
+	\"total\":\"1,000\"}"
+
+------
+
+onNotify:
+"{
+	\"type\":1,
+	\"msg\":\"payment_success\",
+	\"dt\":{
+		\"invoice_code\":\"1607200039\",
+		\"appuser\":\"vpos\",
+		\"invoice_datetime\": \"20-07-2016 16:56:46\",
+		\"barcode\": \"1607180077\"
+	}
+}"
+
+"printData: {
+	\"barcode\": \"1607180077\",
+	\"datetime\": \"20-07-2016 16:56:46\",
+	\"item\": [{
+	    \"amount\": \"1,000\",
+	    \"item_name\": \"Trà đá\",
+	    \"price\": \"1,000\",
+	    \"quantity\": \"1\"}],
+	\"receiptNum\": \"1607200039\",
+	\"title\": \"Canteen VNG\",
+	\"total\": \"1,000\"}"
+
+On print done
+
+Not current invoice code  "1607200039"
+

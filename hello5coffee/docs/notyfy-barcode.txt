@@ -1,0 +1,16 @@
+//data:{"err":0,"msg":"No error","dt":{"zptranstoken":"m5ZhVUKYVN8Za2qLVtHE5A","appid":16,"invoice_code":"1607200006"}}
+
+"Payment success: {\"err\":0,\"msg\":\"No error\",\"dt\":{\"zptranstoken\":\"m5ZhVUKYVN8Za2qLVtHE5A\",\"appid\":16,\"invoice_code\":\"1607200006\"}}"
+onNotify: 
+"{\"type\":1,\"msg\":\"payment_success\",
+	\"dt\":{
+		\"invoice_code\":\"1607200006\",
+		\"appuser\":\"canteenvng\",
+		\"invoice_datetime\":\"2016-07-20 10:45:01\",
+		\"barcode\":\"587426548016\"}}"
+
+//url :http://vpos.zing.vn/vpos/api/item/?cm=get_last_update&dt=%7B0.000000                   4417955tem_status%22: 1,0.000000    %22merchant_code%22:                      
+url: "http://vpos.zing.vn/vpos/api/item/?cm=get_last_update&dt=%7B%0A    %22item_status%22: 1,%0A    %22merchant_code%22: %22canteenvng%22%0A%7D%0A"
+
+//data:{"err":0,"msg":"No error","dt":{"last_update":1468983062461}}
+

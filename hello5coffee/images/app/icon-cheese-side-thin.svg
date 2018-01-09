@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="33px" viewBox="0 0 74 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-cheese-side-thin</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M37,32.2631579 C56.882251,32.2631579 73,27.2063386 73,20.968436 C73,18.03355 75.0752528,7.75649922 66.8585865,7.6044966 C53.17863,7.35142692 19.9502873,7 9.42248483,7 C-1.10531768,7 1,14.7305333 1,20.968436 C1,27.2063386 17.117749,32.2631579 37,32.2631579 Z" id="path-1"></path>
+        <ellipse id="path-2" cx="37" cy="13.2631579" rx="36" ry="13.2631579"></ellipse>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="POPUP-SELECT" transform="translate(-1137.000000, -518.000000)">
+            <g id="Popup-Content" transform="translate(413.000000, 41.000000)">
+                <g id="Group-10-Copy-2" transform="translate(30.000000, 414.000000)">
+                    <g id="Group-5-Copy-3" transform="translate(642.000000, 39.000000)">
+                        <g id="icon-cheese-side-thin" transform="translate(52.000000, 24.000000)">
+                            <g id="Oval-2-Copy">
+                                <use fill="#FFDE72" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <path stroke="#0074AF" stroke-width="2" d="M37,31.2631579 C56.313443,31.2631579 72,26.3416218 72,20.968436 C72,20.7158964 72.0128174,20.4197444 72.0386009,20.0205219 C72.0485066,19.8671443 72.0598044,19.7054602 72.0765707,19.4740334 C72.0976137,19.1853484 72.1090015,19.0287339 72.1193783,18.8825093 C72.2422665,17.1508382 72.273434,15.9659653 72.184182,14.7459398 C71.8937037,10.775261 70.372613,8.66967474 66.8400903,8.60432553 C53.0978858,8.3501043 19.8922878,8 9.42248483,8 C5.66503568,8 3.61691742,8.98730104 2.64506605,10.8557382 C1.86401784,12.3573459 1.7276539,14.1235339 1.89601347,17.8161716 C1.90444736,18.00005 1.90444736,18.00005 1.91300635,18.1843945 C1.97843559,19.593372 2,20.2056498 2,20.968436 C2,26.3416218 17.686557,31.2631579 37,31.2631579 Z"></path>
+                            </g>
+                            <g id="Oval-2">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                <ellipse stroke="#0074AF" stroke-width="2" cx="37" cy="13.2631579" rx="35" ry="12.2631579"></ellipse>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

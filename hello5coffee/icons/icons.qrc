@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/icons/action">
+        <file alias="alarm.svg">action_alarm.svg</file>
+        <file alias="search.svg">action_search.svg</file>
+        <file alias="settings.svg">action_settings.svg</file>
+    </qresource>
+    <qresource prefix="/icons/content">
+        <file alias="add.svg">content_add.svg</file>
+        <file alias="connected.svg">wireless_connected.svg</file>
+        <file alias="disconnected.svg">wireless_disconnected.svg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,57 @@
+//data:{"err":0,"msg":"No error",
+
+"dt":{
+	"categories":[
+		{"category_id":1,"category_name":"Điểm tâm","order":1,"status":1},
+		{"category_id":2,"category_name":"Ăn trưa / Ăn xế","order":2,"status":1},
+		{"category_id":3,"category_name":"Ăn nhẹ","order":3,"status":1},
+		{"category_id":4,"category_name":"Thức uống","order":4,"status":1}
+	],
+
+	"items":[
+		{"item_id":39,"item_name":"Trà xanh đá xay | Sôcôla đá xay","item_code":"SP039","price":20000,"category_name":"Thức uống","img_path":"/resource/vpos/items/traxanhdaxay.jpg","img_crc":"1467879438706","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":38,"item_name":"Cà phê đá xay | Cà phê latte","item_code":"SP038","price":20000,"category_name":"Thức uống","img_path":"/resource/vpos/items/caphedaxay.jpg","img_crc":"1467879438705","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":37,"item_name":"Yaout trái cây | Trà đào | Soda (chanh/ việt quất/ cam/ kiwi)","item_code":"SP037","price":20000,"category_name":"Thức uống","img_path":"/resource/vpos/items/yaourttraicay.jpg","img_crc":"1467879438704","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":36,"item_name":"Yaout nếp than","item_code":"SP036","price":15000,"category_name":"Thức uống","img_path":"/resource/vpos/items/yaourtnepthan.jpg","img_crc":"1467879438703","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":35,"item_name":"Yaout đá","item_code":"SP035","price":12000,"category_name":"Thức uống","img_path":"/resource/vpos/items/yaourtda.jpg","img_crc":"1467879438702","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":34,"item_name":"Cà phê đông sương | Sữa tươi trà xanh","item_code":"SP034","price":17000,"category_name":"Thức uống","img_path":"/resource/vpos/items/caphedongsuong_banhplan.jpg","img_crc":"1467879438701","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":33,"item_name":"Cà phê (cà phê đá, cà phê sữa, bạc sỉu, sữa tươi cà phê)","item_code":"SP033","price":12000,"category_name":"Thức uống","img_path":"/resource/vpos/items/caphe.jpg","img_crc":"1467879438700","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":32,"item_name":"Sinh tố/ Nước ép các loại ","item_code":"SP032","price":17000,"category_name":"Thức uống","img_path":"/resource/vpos/items/sinhto.jpg","img_crc":"1467879438699","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":31,"item_name":"Nước đóng chai các loại","item_code":"SP031","price":12000,"category_name":"Thức uống","img_path":"/resource/vpos/items/nuocdongchai.jpg","img_crc":"1467879438698","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":30,"item_name":"Hủ tíu, mì, bánh mì Bò kho","item_code":"SP030","price":25000,"category_name":"Ăn nhẹ","img_path":"/resource/vpos/items/hutiu.jpg","img_crc":"1467879438697","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":29,"item_name":"Gỏi cuốn (2 cuốn)","item_code":"SP029","price":15000,"category_name":"Ăn nhẹ","img_path":"/resource/vpos/items/goicuon_2cuon.jpg","img_crc":"1467879438696","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":28,"item_name":"Há cảo","item_code":"SP028","price":15000,"category_name":"Ăn nhẹ","img_path":"/resource/vpos/items/hacao.jpg","img_crc":"1467879438695","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":27,"item_name":"Trứng vịt lộn xào me/ xào bơ (1 trứng)","item_code":"SP027","price":10000,"category_name":"Ăn nhẹ","img_path":"/resource/vpos/items/hotvitlonxaome.jpg","img_crc":"1467879438694","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":26,"item_name":"Trứng vịt lộn luộc (2 trứng)","item_code":"SP026","price":15000,"category_name":"Ăn nhẹ","img_path":"/resource/vpos/items/hotvitlon.jpg","img_crc":"1467879438693","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":25,"item_name":"Cá viên chiên, chả giò (dĩa lớn)","item_code":"SP025","price":20000,"category_name":"Ăn nhẹ","img_path":"/resource/vpos/items/cavienchien_dialon.jpg","img_crc":"1467879438692","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":24,"item_name":"Cá viên chiên, chả giò (dĩa nhỏ)","item_code":"SP024","price":15000,"category_name":"Ăn nhẹ","img_path":"/resource/vpos/items/cavienchien.jpg","img_crc":"1467879438691","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":23,"item_name":"Chả giò hải sản","item_code":"SP023","price":10000,"category_name":"Ăn nhẹ","img_path":"/resource/vpos/items/chagio.jpg","img_crc":"1467879438690","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":22,"item_name":"Bún mắm","item_code":"SP022","price":25000,"category_name":"Ăn trưa / Ăn xế","img_path":"/resource/vpos/items/bunmam.jpg","img_crc":"1467879438689","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":21,"item_name":"Bún Thịt Bò Xào","item_code":"SP021","price":25000,"category_name":"Ăn trưa / Ăn xế","img_path":"/resource/vpos/items/bunthitboxao.jpg","img_crc":"1467879438688","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":20,"item_name":"Cơm trưa","item_code":"SP020","price":30000,"category_name":"Ăn trưa / Ăn xế","img_path":"/resource/vpos/items/comtrua.jpg","img_crc":"1467879438687","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":19,"item_name":"Bánh đúc | Xôi mặn","item_code":"SP019","price":15000,"category_name":"Ăn trưa / Ăn xế","img_path":"/resource/vpos/items/banhducxoiman.jpg","img_crc":"1467879438686","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":18,"item_name":"Bún gạo xào","item_code":"SP018","price":20000,"category_name":"Ăn trưa / Ăn xế","img_path":"/resource/vpos/items/bungaoxao.jpg","img_crc":"1467879438685","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":17,"item_name":"Bún thịt bò xào | Bún thịt nướng","item_code":"SP017","price":25000,"category_name":"Ăn trưa / Ăn xế","img_path":"/resource/vpos/items/bunthitnuong.jpg","img_crc":"1467879438684","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":16,"item_name":"Cháo lòng","item_code":"SP016","price":25000,"category_name":"Ăn trưa / Ăn xế","img_path":"/resource/vpos/items/chaolong.jpg","img_crc":"1467879438683","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":15,"item_name":"Bún, miến măng gà | Mì quảng | Bún sứa ","item_code":"SP015","price":25000,"category_name":"Ăn trưa / Ăn xế","img_path":"/resource/vpos/items/bunmien.jpg","img_crc":"1467879438682","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":14,"item_name":"Cari gà | Mì gà tiềm","item_code":"SP014","price":25000,"category_name":"Ăn trưa / Ăn xế","img_path":"/resource/vpos/items/cari.jpg","img_crc":"1467879438681","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":13,"item_name":"Bún thái ","item_code":"SP013","price":25000,"category_name":"Ăn trưa / Ăn xế","img_path":"/resource/vpos/items/bunthai.jpg","img_crc":"1467879438680","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":12,"item_name":"Nui, bánh canh, xương, lòng, thịt, bò viên","item_code":"SP012","price":25000,"category_name":"Điểm tâm","img_path":"/resource/vpos/items/banhcanh.jpg","img_crc":"1467879438679","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":11,"item_name":"Mì, Nui xào bò","item_code":"SP011","price":25000,"category_name":"Điểm tâm","img_path":"/resource/vpos/items/minuixaobo.jpg","img_crc":"1467879438678","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":10,"item_name":"Hủ tiếu Nam Vang, xá xíu","item_code":"SP010","price":25000,"category_name":"Điểm tâm","img_path":"/resource/vpos/items/hutiunamvang.jpg","img_crc":"1467879438677","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":9,"item_name":"Bánh hỏi thịt quay","item_code":"SP009","price":20000,"category_name":"Điểm tâm","img_path":"/resource/vpos/items/banhhoithitquay.jpg","img_crc":"1467879438676","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":8,"item_name":"Bánh ướt chả lụa","item_code":"SP008","price":15000,"category_name":"Điểm tâm","img_path":"/resource/vpos/items/banhuotchalua.jpg","img_crc":"1467879438675","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":7,"item_name":"Bánh mì ốp la, bò","item_code":"SP007","price":30000,"category_name":"Điểm tâm","img_path":"/resource/vpos/items/banhmioplabo.jpg","img_crc":"1467879438674","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":6,"item_name":"Bánh mì cá hộp","item_code":"SP006","price":18000,"category_name":"Điểm tâm","img_path":"/resource/vpos/items/banhmicahop.jpg","img_crc":"1467879438673","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":5,"item_name":"Bánh mì bò xào","item_code":"SP005","price":25000,"category_name":"Điểm tâm","img_path":"/resource/vpos/items/banhmiboxao.jpg","img_crc":"1467879438672","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":4,"item_name":"Bánh mì ốp la","item_code":"SP004","price":15000,"category_name":"Điểm tâm","img_path":"/resource/vpos/items/banhmioppla.jpg","img_crc":"1467879438671","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":3,"item_name":"Bánh canh tôm thịt","item_code":"SP003","price":25000,"category_name":"Điểm tâm","img_path":"/resource/vpos/items/banhcanh.jpg","img_crc":"1467879438670","description":"","inventory":0,"status":1,"create_by":"","create_date":""},
+		{"item_id":2,"item_name":"Bún mộc","item_code":"SP002","price":25000,"category_name":"Điểm tâm","img_path":"/resource/vpos/items/bunmoc.jpg","img_crc":"1467879438669","description":"","inventory":0,"status":1,"create_by":"","create_date":""}],
+
+	"img_host":"http://vpos.zing.vn/vpos",
+	"last_update":1467948693669
+   }
+}
+
+
+

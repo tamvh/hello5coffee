@@ -1,0 +1,10 @@
+cancel bill - invoice code: "1607110789"
+backupBill: "{\"datetime\":\"11-07-2016 15:43:06\",\"item\":[{\"amount\":\"1,000\",\"name\":\"Trà đá\",\"price\":\"1,000\",\"quantity\":\"1\"}],\"receiptNum\":\"1607110789\",\"total\":\"1,000\"}"
+On notify  "{\"type\":1,\"msg\":\"payment_success\",\"dt\":{\"invoice_code\":\"1607110789\",\"appuser\":\"vpos\",\"invoice_datetime\":\"2016-07-11 15:43:40\"}}"    "payment_success"
+invceID: "1607110789"
+==== notify to print current invoice code
+qml: Thanh toan error code: 0
+doPrintBill # "1607110789" , total= "0"
+"printBill: {\"datetime\":\"11-07-2016 15:43:06\",\"item\":[],\"receiptNum\":\"1607110789\",\"total\":\"0\"}"
+no need backupBill
+
