@@ -33,13 +33,11 @@
         }
 
         $scope.getProdInCategory = function (cate) {
-            console.log("cate: " + JSON.stringify(cate));
             var count_item_in_cate = 0;
             $rootScope.l_pro.splice(0, $rootScope.l_pro.length);
             var cate_name = cate.category_name;
             var cate_value = cate.category_value;
             var cate_id = cate.category_id;
-            console.log('cate list: ' + JSON.stringify($rootScope.l_categories));
             for (var j in $rootScope.l_categories) {
                 console.log('cate_id: ' + $rootScope.l_categories[j].category_id);
                 if (cate_id === $rootScope.l_categories[j].category_id) {
@@ -162,7 +160,6 @@
                         if (response.err === 0) {
                             img_host = response.dt.img_host;
                             dt_items = response.dt.items;
-                            console.log(JSON.stringify('list item: ' + JSON.stringify(response.dt.items)));
                             for (var i in response.dt.categories) {
                                 if (response.dt.categories[i].status === 0 &&
                                         response.dt.categories[i].category_name === 'Tất cả') {
@@ -220,11 +217,10 @@
                                 }
                             }
 
-                            console.log(JSON.stringify('list cate: ' + JSON.stringify($rootScope.l_categories)));
                             $scope.total_item_in_category = count_item_in_cate;
                         } else {
                             console.log("error getListProduct");
-                            PopupService.displayPopup('Quá trình tải dữ liệu bị lỗi Vui lòng thử lại.');
+                            PopupService.displayPopup('Quá trình tải dữ liệu bị lỗi, vui lòng thử lại.');
                         }
                     });
 

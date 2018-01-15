@@ -102,11 +102,11 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-6">
                         <input style="border-radius: 4px; color: #2D6489; font-size: 13px;" type="text" class="form-control" id = "item_CustomerName" ng-model="item_CustomerName" ng-change="typingItemCustomerName()" placeholder = "Họ tên">
-                        <span class="red" ng-show="errItemNameCharacter">(*) Họ tên không quá 20 kí tự</span>
+                        <span class="red" ng-show="errItemNameCharacter">{{err_text_item_name}}</span>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-6">
                         <input style="border-radius: 4px; color: #2D6489; font-size: 13px;" type="text" class="form-control" id = "item_PhoneNo" ng-model="item_PhoneNo" ng-change="typingItemPhoneNo()" placeholder = "Số điện thoại">
-                        <span class="red" ng-show="errItemSDTCharacter">(*) SĐT không quá 16 kí tự</span>
+                        <span class="red" ng-show="errItemSDTCharacter">{{err_text_item_sdt}}</span>
                     </div>
                 </div>
             </div>
@@ -115,7 +115,7 @@
                  margin-right: 10px;
                  margin-bottom: 10px;">
                 <textarea rows="2" style="border-radius: 4px;border: 1px solid #D9E4ED;width: 100%; font-size: 13px;" id = "item_BillNote" ng-model="item_BillNote" ng-change="typingBillNote()" placeholder = "Ghi chú"></textarea>
-                <span class="red" ng-show="errItemNoteCharacter">(*) Ghi chú không quá 64 kí tự</span>
+                <span class="red" ng-show="errItemNoteCharacter">{{err_text_item_note}}</span>
             </div>
         </div>
         <div style="
